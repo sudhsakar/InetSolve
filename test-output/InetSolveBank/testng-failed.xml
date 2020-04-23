@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [InetSolveBank]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Bancking App(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="inetSolve1.inetSolve1.Test_Auto_001">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="LoginTest"/>
+        </methods>
+      </class> <!-- inetSolve1.inetSolve1.Test_Auto_001 -->
+    </classes>
+  </test> <!-- Bancking App(failed) -->
+</suite> <!-- Failed suite [InetSolveBank] -->
